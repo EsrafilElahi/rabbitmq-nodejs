@@ -3,7 +3,7 @@ const amqplib = require("amqplib/callback_api");
 // 1 - connect to amqp
 // 2 - create channel
 // 3 - receive msg from queue
-
+ 
 // const connectProvider = () => {
 //   return amqplib.connect("amqp://localhost", (err, connection) => {
 //     if (err) return;
