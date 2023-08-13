@@ -5,7 +5,7 @@ const amqplib = require("amqplib/callback_api");
 // 3 - send msg to queue
 
 // const connectConsumer = () => {
-//   return amqplib.connect("amqp://localhost", (err, connection) => {
+//   return amqplib.connect("amqp://localhost", (err, connection) => { 
 //     if (err) return;
 
 //     connection.createChannel((err, channel) => {
